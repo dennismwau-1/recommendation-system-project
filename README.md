@@ -111,6 +111,7 @@ inconsistent.
  - Collaborative filtering (SVD) is the best model for the recommender system 
 since it has a lower RMSE an MAE compared to he hybrid recommendation 
 system.
+
  ● When a user is new ,recommend movies based on their popularity while, for 
 a current user , use their previous information on movie ratings and genres 
 preferred to tailor recommendation
@@ -123,10 +124,12 @@ why the SVD model is more preferable
 # Next Steps
  ●Model Tuning: Further hyperparameter tuning for both 
 models.
+
  ●Hybrid model enhancements: Advanced hybridization 
 techniques such as weighted blending or even adding more 
 CBF should be considered to help reduce hybrid model's bias 
 and improve performance.
+
  ● Cold-Start Problem: In the analysis, we attempted to solve 
 the problem using global genre preference. Popularity-Based 
 Recommendations should also be considered to try and 
