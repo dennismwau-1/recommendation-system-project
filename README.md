@@ -79,7 +79,34 @@ average ratings although they
 appear least frequently in the 
 previous graph.
 
+# Recommendation Models
+ - Collaborative Filtering (SVD)
+ This was used to recommendmovies based on 
+user behaviour.
+ - Content-Based Filtering
+ This was used to compute the similarity between 
+movies based on their genres. It allows us to 
+recommend movies that share similar genre 
+characteristics.
+ - Hybrid Recommendation System
+ This was used to improve recommendation quality, 
+CF (SVD) is blended with CBF (genre similarity). 
+This approach balances personalized predictions 
+with genre- based similarities, helping address the 
+cold start problem for new users
+# Model Comparison
+SVD performance: SVD consistently has a lower RMSE and MAE compared to the Hybrid system. This suggests that, in this 
+particular evaluation, SVD is making more accurate predictions than the Hybrid approach.
+ Hybrid Performance: The Hybrid system shows significantly higher RMSE and MAE. This indicates that its predictions are further 
+away from the actual ratings than those of SVD
+![Image Alt](https://github.com/dennismwau-1/recommendation-system-project/blob/e7073dc9fe3ad8daed191071bc3dd340a566f75c/model%20comparison.PNG)
+# Error Distribution
+![Image Alt](https://github.com/dennismwau-1/recommendation-system-project/blob/e7073dc9fe3ad8daed191071bc3dd340a566f75c/Error%20Distribution.PNG)
 
+
+ The Hybrid Model appears to be biased negatively but appears to be more consistent and has lower error variance. Since 
+the goal is to have errors closer to zero on average, the SVD model is more preferable but its spread suggests that it's 
+inconsistent.
 
 
 
