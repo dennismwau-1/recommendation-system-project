@@ -107,8 +107,30 @@ away from the actual ratings than those of SVD
  The Hybrid Model appears to be biased negatively but appears to be more consistent and has lower error variance. Since 
 the goal is to have errors closer to zero on average, the SVD model is more preferable but its spread suggests that it's 
 inconsistent.
-
-
+# Recommendations
+ - Collaborative filtering (SVD) is the best model for the recommender system 
+since it has a lower RMSE an MAE compared to he hybrid recommendation 
+system.
+ ● When a user is new ,recommend movies based on their popularity while, for 
+a current user , use their previous information on movie ratings and genres 
+preferred to tailor recommendation
+# Conclusions
+ In this Analysis, we evaluated the performance of different 
+models for predicting movie ratings; SVD and a Hybrid 
+model. Though the hybrid model was more consistent, the 
+goal was to have errors close to zero on average which is 
+why the SVD model is more preferable
+# Next Steps
+ ●Model Tuning: Further hyperparameter tuning for both 
+models.
+ ●Hybrid model enhancements: Advanced hybridization 
+techniques such as weighted blending or even adding more 
+CBF should be considered to help reduce hybrid model's bias 
+and improve performance.
+ ● Cold-Start Problem: In the analysis, we attempted to solve 
+the problem using global genre preference. Popularity-Based 
+Recommendations should also be considered to try and 
+address the problem
 
 
 
