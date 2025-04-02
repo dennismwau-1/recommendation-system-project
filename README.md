@@ -30,6 +30,22 @@ between predicted and
 actual rating (RMSE and 
 MAE
 # Exploratory Data Analysis
+Distribution of user rating count
+![Image Alt](https://github.com/dennismwau-1/recommendation-system-project/blob/97d4a41122e3466d1a79537e098dee2e129bef55/distribution%20of%20user%20rating%20counts.PNG)
+   We can see that most users rate 
+very few movies, and few users 
+rate many movies.
+ This shows that the dataset has a 
+lot of users with little interaction
+
+![Image Alt](https://github.com/dennismwau-1/recommendation-system-project/blob/97d4a41122e3466d1a79537e098dee2e129bef55/distribution%20of%20user%20ratings.PNG)
+From this plot, it is evident that, 
+very many movies have few 
+ratings while few movies have 
+many ratings.
+
+
+
 
 
 
